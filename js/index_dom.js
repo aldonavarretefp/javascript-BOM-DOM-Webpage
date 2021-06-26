@@ -7,7 +7,7 @@ d.addEventListener("DOMContentLoaded",e=>{
     hamburguerMenu(".panel-btn",".panel",".menu a");
     digitalClock("#reloj","#activar-reloj","#desactivar-reloj")
     alarm("../assets/iphone_alarm_morning.mp3","#activar-alarma","#desactivar-alarma")
-    countDown("countdown",new Date("26 Jun 2021 18:01"),"FELICIDADES, TU CUMPLEAÑOS HA PASADO YA!")
+    countDown("countdown",new Date("20 Mar 2022"),"FELICIDADES, TU CUMPLEAÑOS HA PASADO YA!")
 })
 
 //La propiedad keydown tiene un code 18, viene
