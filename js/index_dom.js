@@ -16,5 +16,6 @@ d.addEventListener("DOMContentLoaded",e=>{
 //Cntrl Shift, se ponen en booleano, y es para los shorcuts
 d.addEventListener('keyup', e=>{
     console.warn('Nueva tecla')
+    console.log(e)
     shorcuts(e);
 })
