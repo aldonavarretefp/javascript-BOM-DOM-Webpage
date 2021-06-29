@@ -188,3 +188,13 @@ section h2 {
   align-items: center;
   justify-content: center;
 }
+
+/* Scroll top button */
+.scroll-top-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  right: calc(4.25rem+1vw);
+  width: 4rem;
+  height: 4rem;
+}
