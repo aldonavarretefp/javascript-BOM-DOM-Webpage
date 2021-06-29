@@ -17,7 +17,6 @@ export function shorcuts(e){
         let $div = d.createElement('h3')
         let $seccion = d.getElementById('seccion2')
         $div.innerText = respuesta
-        console.log($div)
         $seccion.appendChild($div)
     }
     

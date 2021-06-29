@@ -197,4 +197,21 @@ section h2 {
   right: calc(4.25rem+1vw);
   width: 4rem;
   height: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--color-1);
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  outline: 0;
+  border: 0;
+}
+.scroll-top-btn:hover {
+  background-color: var(--color-9);
+  color: #023e8a;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
 }
