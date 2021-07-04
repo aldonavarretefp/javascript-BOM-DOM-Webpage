@@ -3,6 +3,7 @@ import hamburguerMenu from "./menu_hamburguesa.js";
 import { shorcuts } from './teclado.js';
 import countDown from './cuenta _regresiva.js';
 import scrollTopButton from './btn_scroll.js';
+import darkTheme from './tema-oscuro.js';
 const d = document;
 d.addEventListener("DOMContentLoaded",e=>{
     hamburguerMenu(".panel-btn",".panel",".menu a");
@@ -10,6 +11,7 @@ d.addEventListener("DOMContentLoaded",e=>{
     alarm("../assets/iphone_alarm_morning.mp3","#activar-alarma","#desactivar-alarma")
     countDown("countdown",new Date("20 Mar 2022"),"FELICIDADES, TU CUMPLEAÑOS HA PASADO YA!")
     scrollTopButton(".scroll-top-btn")
+    darkTheme('.dark-theme-btn','dark-mode');
 })
 
 //La propiedad keydown tiene un code 18, viene

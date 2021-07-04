@@ -215,3 +215,32 @@ section h2 {
   visibility: hidden;
   opacity: 0;
 }
+.dark-theme-btn {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  bottom: 1vh;
+  right: 80px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--color-1);
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  outline: 0;
+  border: 0;
+}
+.dark-theme-btn:hover {
+  background-color: var(--color-9);
+  color: #023e8a;
+}
+.dark-mode {
+  background-color: var(--color-2);
+
+  color: var(--color-9);
+}

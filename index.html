@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-dark>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
     <link rel="stylesheet" href="./css/dom-ejercicios.css">
 </head>
-<body>
+<body data-dark>
 
     <header class="header">
         <h1>Ejercicios del DOM</h1>
@@ -31,7 +31,7 @@
     </aside>
     <main>
         <section id="seccion1" class="section">
-            <h2>Reloj Digital / Alarma</h2>
+            <h2 data-dark>Reloj Digital / Alarma</h2>
             <section class="botones">
                 <button id="activar-reloj"class="button button1">Iniciar Reloj</button>
                 <button id="desactivar-reloj"class="button button2">Finalizar Reloj </button>
@@ -41,23 +41,24 @@
             <div id="reloj"></div>
         </section>
         <section id="seccion2" class="section">
-            <h2>Eventos del teclado</h2>
-            <h3>Presiona ALT + A para obtener un saludo</h3>
+            <h2 data-dark>Eventos del teclado</h2>
+            <h3 >Presiona ALT + A para obtener un saludo</h3>
             <h3>Presiona Cntrl + A para seguir escribiendo aqui dentro</h3>
         </section>
         <section id="seccion3" class="section">
-            <h2>Cuenta Regresiva</h2>
-            <h2>Para mi cumpleaños</h2>
+            <h2 data-dark>Cuenta Regresiva</h2>
+            <h2 data-dark>Para mi cumpleaños</h2>
             <div id="countdown"></div>
         </section>
         <section id="seccion4" class="section">
-            <h2>Seccion 4</h2>
+            <h2 data-dark>Seccion 4</h2>
         </section>
         <section id="seccion5" class="section">
-            <h2>Seccion 5</h2>
+            <h2 data-dark>Seccion 5</h2>
         </section>
     </main>
     <button class="scroll-top-btn material-icons hidden">arrow_upward</button>
+    <span class="dark-theme-btn material-icons outlined">dark_mode</span>
     
     <script src="./js/index_dom.js" type="module"></script>
 </body>
