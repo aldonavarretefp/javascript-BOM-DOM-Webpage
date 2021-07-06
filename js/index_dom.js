@@ -11,7 +11,6 @@ d.addEventListener("DOMContentLoaded",e=>{
     alarm("../assets/iphone_alarm_morning.mp3","#activar-alarma","#desactivar-alarma")
     countDown("countdown",new Date("20 Mar 2022"),"FELICIDADES, TU CUMPLEAÑOS HA PASADO YA!")
     scrollTopButton(".scroll-top-btn")
-    darkTheme('.dark-theme-btn','dark-mode');
 })
 
 //La propiedad keydown tiene un code 18, viene
@@ -22,3 +21,4 @@ d.addEventListener('keyup', e=>{
     
     shorcuts(e);
 })
+darkTheme('.dark-theme-btn','dark-mode');

@@ -17,6 +17,7 @@ html {
   font-family: var(--main-font);
   font-size: var(--font-size);
   scroll-behavior: smooth;
+  transition-duration: 0.4s;
 }
 
 *,
@@ -241,6 +242,6 @@ section h2 {
 }
 .dark-mode {
   background-color: var(--color-2);
-
+  transition-duration: 0.4s;
   color: var(--color-9);
 }
